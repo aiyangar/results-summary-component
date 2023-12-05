@@ -1,0 +1,80 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.mainContainer {
+  border-radius: 16px;
+  width: 700px;
+  height: 500px;
+  box-shadow: 5px 5px 10px 0px rgba(36, 33, 202, 0.2)
+}
+
+.resultContainer {
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  border-radius: 16px;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  height: 15%;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);;
+}
+
+.result {
+  height: 45%;
+  width: 100%;
+  background: linear-gradient(0deg, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.result h1, h6{
+  margin: 0;
+  padding: 0;
+}
+
+.result h1{
+  color: white;
+}
+
+.result h6 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  height: 15%;
+  width: 100%;
+  color: white;
+}
+
+.description {
+  height: 25%;
+  width: 70%;
+  color: rgba(255, 255, 255, 0.8);;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: black;
+}
